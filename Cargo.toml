@@ -1,0 +1,9 @@
+[package]
+name = "regex-compiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+automaton = { git = "https://github.com/mithe24/automaton", version = "0.1.0" }
+graphviz-rust = "0.9.9"
+thiserror = "2.0.21"
